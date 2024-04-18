@@ -118,7 +118,7 @@ def user_input_features():
         #current_date = datetime.date.today()
         surname = st.sidebar.text_input("Nom")
         name = st.sidebar.text_input("Prénom")
-        date = st.sidebar.date_input("Date de naissance", datetime.date(2010, 1, 1))
+        date = st.sidebar.date_input("Date de naissance", datetime.date(1990, 1, 1))
         #age = current_date.year - date.year - ((current_date.month, current_date.day) < (date.month, date.day))
         sex = st.sidebar.selectbox('Sex',('Homme','Femme'))
         #study = st.sidebar.selectbox("Niveau d'etude",('CAP/BEP','Baccalauréat professionnel','Baccalauréat général', 'Bac +2 (DUT/BTS)', 'Bac +3 (Licence)',
